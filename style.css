@@ -37,7 +37,10 @@ p.countryInfo{
 }
 
 iframe{
-  width:80%;
+  width:60%;
   height:400px;
   border:0px;
+  position: absolute;
+  top:40%;
+  left:10%;
 }
