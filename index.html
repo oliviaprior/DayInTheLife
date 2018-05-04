@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Countries</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.3.1.min.js" ></script>
+    <script src="flags.js" ></script>
+  </head>
+  <body>
+    <div id="center">
+      <div class="countryFlag" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="changeSelected('canada')">
+        <span>Canada</span>
+        <img src="canada.png"/>
+        <p class='countryInfo' >no one knows anything about this country, it is big and really really cold</p>
+      </div>
+      <div class="countryFlag" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="changeSelected('newzealand')">
+        <span>New Zealand</span>
+        <img src="newzealand.png"/>
+        <p  class='countryInfo'>kiwiland is a beatiful place to live</p>
+      </div>
+      <div class="countryFlag" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="changeSelected('colombia')">
+        <span>Colombia</span>
+        <img src="colombia.png"/>
+        <p  class='countryInfo'>safe country for know, more than drugs and beatiful womans</p>
+      </div>
+      <div class="countryFlag"  onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="changeSelected('russia')">
+        <span>Russia</span>
+        <img src="russia.png"/>
+        <p  class='countryInfo'>It is the most cold country in the world after russian</p>
+      </div>
+      <iframe src="https://en.wikipedia.org/wiki/Russia"></iframe>
+  </div>
+  </body>
+</html>

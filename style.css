@@ -1,0 +1,43 @@
+img {
+  width:200px;
+  height:100px;
+  margin:20px;
+}
+
+div#center {
+  top:8%;
+  left:10%;
+  position: absolute;
+}
+
+span{
+  text-align: center;
+}
+
+div.countryFlag {
+  margin:25px;
+  border:2px solid red;
+  display:inline-grid;
+  text-align: center;
+}
+
+div.countryFlag:hover{
+  border:2px solid orange;
+}
+
+div.selected{
+  border:2px solid green;
+}
+
+p.countryInfo{
+  display: none;
+  width: 180px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+iframe{
+  width:80%;
+  height:400px;
+  border:0px;
+}
